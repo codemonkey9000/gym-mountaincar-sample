@@ -28,4 +28,4 @@ if __name__ == "__main__":
     simulator = MountainCarSimulator(
         env, SKIPPED_FRAME, RECORD_PATH, not base_args.headless)
     bonsai.run_with_url("mountaincar_simulator", simulator,
-                        base_args.brain_url)
+                        base_args.brain_url, base_args.access_key)
