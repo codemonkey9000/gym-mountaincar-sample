@@ -1,9 +1,0 @@
-{
-    "files": [
-        "./"
-    ],
-    "training": {
-        "command": "python mountaincar_simulator.py",
-        "simulator": "openai.gym.mountaincar"
-    }
-}
